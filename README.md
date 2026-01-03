@@ -1,6 +1,5 @@
 # Personalized-wellness-project
 Personalized wellness and mindset analytics system built in Java with MySQL integration, focused on emotional assessment, progress tracking, and adaptive guidance.
-
 1. User Management
 
 Each user is identified by their name.
@@ -12,7 +11,6 @@ If the user exists → loads their history.
 If not → creates a new user profile.
 
 This enables true personalization instead of one-time usage.
-
 2. Mindset Assessment Engine
 
 The system includes a 15-question psychological self-assessment, covering:
@@ -47,10 +45,7 @@ Low Self-Worth
 
 Emotionally Composed
 
-Social Withdrawal
-
-and others
-
+Social Withdrawal and others
 3. Mindset Scoring System
 
 Each detected mindset is mapped to a numerical wellness score using a TreeMap-based scoring model:
@@ -60,7 +55,6 @@ Lower scores indicate healthier emotional states
 Higher scores indicate increasing emotional strain or burnout risk
 
 This numeric abstraction allows meaningful trend analysis over time.
-
 4. Database Integration & Persistence
 
 All data is stored in a local MySQL database using JDBC:
@@ -76,7 +70,6 @@ Associated emotional score
 Timestamped history
 
 This transforms the application from a static program into a persistent system capable of long-term analysis.
-
 5. Progress Tracking & Trend Analysis
 
 The system continuously analyzes the user's emotional progression:
@@ -110,7 +103,6 @@ Identifies the most frequent emotional state
 Calculates average emotional load
 
 Produces intelligent guidance based on historical patterns
-
 6. Personalized Support & Recommendations
 
 Based on the user’s current mindset and progress:
@@ -126,7 +118,6 @@ genre-based emotional matching
 mindset-based personalization
 
 This makes the system adaptive rather than generic.
-
 Technical Stack
 
 Language: Java
